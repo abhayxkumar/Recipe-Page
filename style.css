@@ -76,7 +76,8 @@
     padding: 0 0 20px 10px;
 }
 
-.source {
+.source,
+.source-a {
     font-family: Montserrat;
     font-style: italic;
     font-weight: normal;
@@ -174,4 +175,94 @@ footer,
 
 .source {
     padding-top: 30px;
+}
+
+@media (max-width: 420px) {
+    .wrapper {
+        margin: 35px 15px 0 15px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .main-heading {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .main-desc {
+        width: 90vw;
+        font-size: 12px;
+    }
+
+    .main-img {
+        width: 92vw;
+        height: auto;
+    }
+
+    .right {
+        padding: 20px 0 0 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 25vw));
+    }
+
+    .left {
+        padding: 0 10px 0 0;
+    }
+
+    .icon-heading {
+        font-size: 8px;
+    }
+
+    .icon-desc,
+    .icon1-desc {
+        font-size: 10px;
+    }
+
+    .icon {
+        margin: 0;
+    }
+
+    .heading {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .ingred-heading {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .ingred {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .count {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .instr-desc {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .source {
+        font-size: 12px;
+        line-height: 18px;
+        padding: 10px 0 20px 20px;
+    }
+
+    .source-a {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    footer {
+        font-size: 14px;
+        line-height: 17px;
+    }
 }
