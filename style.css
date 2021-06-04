@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* fonts */
+
+.main-heading {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.main-desc {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4F4F4F;
+    padding: 12px 0 25px 10px;
+    width: 45vw;
+}
+
+.heading {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+    padding: 20px 0 20px 0;
+}
+
+.ingred-heading {
+    font-family: Playfair Display;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+    padding: 20px 0 20px 0;
+}
+
+.ingred {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #333333;
+    padding-left: 7px;
+}
+
+.count {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    background-color: #F2994A;
+    border-radius: 6px;
+    padding: 2px 12px 5px 12px;
+}
+
+.instr-desc {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0 0 20px 10px;
+}
+
+.source {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #BDBDBD;
+}
+
+.icon-heading {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color: #BDBDBD;
+    padding-left: 5px;
+}
+
+.icon1-desc {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F2994A;
+    padding-left: 5px;
+}
+
+.icon-desc {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+    width: 100px;
+    padding-left: 5px;
+}
+
+footer,
+.github-link {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* image */
+
+.main-img {
+    width: 65vw;
+    height: auto;
+}
+
+/* display */
+
+.wrapper {
+    margin: 50px 235px 100px 235px;
+}
+
+.content {
+    display: flex;
+}
+
+.dots-desc,
+.instr {
+    display: flex;
+    align-items: baseline;
+}
+
+.ingred-wrap {
+    display: flex;
+    padding: 5px 0 5px 0;
+}
+
+.left {
+    padding: 40px 130px 0 0;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 120px 0 0;
+}
+
+.icon {
+    display: flex;
+    padding: 15px;
+}
+
+.source {
+    padding-top: 30px;
+}
