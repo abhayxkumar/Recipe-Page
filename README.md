@@ -48,6 +48,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [Interior Consultant WebPage](https://abhayxkumar.github.io/Recipe-Page/)
+- Website [Recipe Page](https://abhayxkumar.github.io/Recipe-Page/)
 - GitHub [@abhayxkumar](https://github.com/abhayxkumar)
 - Twitter [@abhayxkumar](https://twitter.com/abhayxkumar)
